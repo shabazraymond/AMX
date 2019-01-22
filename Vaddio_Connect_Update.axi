@@ -33,14 +33,6 @@ vdvVaddioRear =			35099:1:0
 (***********************************************************)
 DEFINE_CONSTANT
 
-#IF_NOT_DEFINED IS_OFF
-IS_OFF					= 0
-#END_IF
-
-#IF_NOT_DEFINED IS_ON
-IS_ON					= 1
-#END_IF
-
 #IF_NOT_DEFINED POWER_ON
 POWER_ON					= 27
 #END_IF
@@ -267,8 +259,8 @@ DATA_EVENT [dvTP_Main]
 }
 TIMELINE_EVENT [TIMELINE_MAIN]
 {
-    [dvTP_Main, 51] = nVaddioCameraSelect = CAMERA_FRONT
-    [dvTP_Main, 52] = nVaddioCameraSelect = CAMERA_REAR
+    [dvTP_Main, BTN_CAM_FRONT] = nVaddioCameraSelect = CAMERA_FRONT
+    [dvTP_Main, BTN_CAM_REAR] = nVaddioCameraSelect = CAMERA_REAR
     
     [dvTP_Main, BTN_BOARD_1] = nVaddioPresets = CAM_PRESET_6
     [dvTP_Main, BTN_BOARD_2] = nVaddioPresets = CAM_PRESET_7
