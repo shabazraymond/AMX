@@ -1077,197 +1077,84 @@ BUTTON_EVENT [vdvTP_Codec, nPhoneSelect]
 		{
 		    CASE 1:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Primary[1]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[1]
-//			}
 			dialNumber = cSlot_Primary[1]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 301]
 		    }
 		    CASE 2:
 		    {
-			
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[2]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[2]
-//			}
 			dialNumber = cSlot_Primary[2]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 302]
 		    }
 		    CASE 3:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[3]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[3]
-//			}
 			dialNumber = cSlot_Primary[3]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 303]
 		    }
 		    CASE 4:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[4]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[4]
-//			}
 			dialNumber = cSlot_Primary[4]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 304]
 		    }
 		    CASE 5:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[5]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[5]
-//			}
 			dialNumber = cSlot_Primary[5]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 305]
 		    }
 		    CASE 6:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[6]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[6]
-//			}
 			dialNumber = cSlot_Primary[6]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 306]
 		    }
 		    CASE 7:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[7]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[7]
-//			}
 			dialNumber = cSlot_Primary[7]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 307]
 		    }
 		    CASE 8:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[8]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[8]
-//			}
 			dialNumber = cSlot_Primary[8]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 308]
 		    }
 		    CASE 9:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[9]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[9]
-//			}
 			dialNumber = cSlot_Primary[9]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 309]
 		    }
 		    CASE 10:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[10]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[10]
-//			}
 			dialNumber = cSlot_Primary[10]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 310]
 		    }
 		    CASE 11:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[11]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[11]
-//			}
 			dialNumber = cSlot_Primary[11]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 311]
 		    }
 		    CASE 12:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[12]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[12]
-//			}
 			dialNumber = cSlot_Primary[12]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 312]
 		    }
 		    CASE 13:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[13]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[13]
-//			}
 			dialNumber = cSlot_Primary[13]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 313]
 		    }
 		    CASE 14:
 		    {
-//			IF (cDialGTBook == IS_ON)
-//			{
-//			    dialNumber = cSlot_Secondary[14]
-//			}
-//			ELSE
-//			{
-//			    dialNumber = cSlot_Primary[14]
-//			}
 			dialNumber = cSlot_Primary[14]
 			send_command vdvTP_Codec,"'^TXT-',ITOA(TXT_DIAL),',0,',dialNumber"
 			ON [vdvTP_Codec, 314]
@@ -1412,9 +1299,6 @@ TIMELINE_EVENT [TL_FEEDBACK]
     }
 
 }
-
-DEFINE_EVENT
-
 
 (***********************************************************)
 (*            THE ACTUAL PROGRAM GOES BELOW                *)
