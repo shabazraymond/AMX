@@ -250,7 +250,7 @@ DATA_EVENT [dvBlackMagic]
 	SEND_COMMAND DATA.DEVICE, "'RXON'"
 	WAIT 100 SEND_STRING dvBlackMagic, "CR" //Start off Session
 	WAIT 120 SEND_STRING dvBlackMagic, "'@ ?',CR" //Enable Status Reporting...
-	WAIT 140 SEND_STRING dvBlackMagic, "'@ X?0',ITOA(DES_EXTRON_CAPTURE),CR" //Get Connected Route...
+	WAIT 140 SEND_STRING dvBlackMagic, "'@ X?0',ITOA(DES_EXTRON),CR" //Get Connected Route...
     }
     STRING :
     {
@@ -261,7 +261,6 @@ DATA_EVENT [vdvCamFront]
 {
     ONLINE :
     {
-	//'PASSTHRU-cgi-bin/aw_cam?cmd=QID&res=1'
 	SEND_COMMAND vdvCamFront, "'PROPERTY-IP_Address,172.21.1.2'"
 	//SEND_COMMAND vdvCamFront, "'PROPERTY,PAN-10000'"
 	//SEND_COMMAND vdvCamFront, "'PROPERTY,TILT-10000'"
