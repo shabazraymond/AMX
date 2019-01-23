@@ -12,9 +12,8 @@ PROGRAM_NAME='Clock'
 DEFINE_DEVICE
 
 
-dvMaster 		=		0:1:0	//NX Master
-
-
+//Defining devices for setting a clock is not necessary
+//These are all system commands which will only run on a Master
 
 (***********************************************************)
 (*               CONSTANT DEFINITIONS GO BELOW             *)
@@ -22,13 +21,11 @@ dvMaster 		=		0:1:0	//NX Master
 DEFINE_CONSTANT
 
 //Clock Stuff...
-CHAR TIME_IP[]				= '192.168.128.8' //Your Clock Server IP Address
-CHAR TIME_SERVER[]			= 'ntp1.yourclockserver.com' //Your Clock Server Name Address
+CHAR TIME_IP[]				= '130.207.165.28' //Your Clock Server IP Address
+CHAR TIME_SERVER[]			= 'ntp1.gatech.edu' //Your Clock Server Name Address
 CHAR TIME_LOC[]			= 'NIST, Georgia, ATL'
 CHAR TIME_ZONE[]			= 'UTC-05:00' //Eastern
 INTEGER TIME_SYNC_PERIOD 	= 60 //1 hour
-
-
 
 
 (***********************************************************)
